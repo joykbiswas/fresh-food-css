@@ -1,0 +1,226 @@
+body{
+    margin: 0;
+    font-family: system-ui;
+   
+}
+.parallax, .parallaxl{
+    background-image: url(media/bg-fruts/bgg.png);
+    height: max-content;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.page-title{
+    background:rgba(0,0, 0, 0.5) ;
+    text-align: center;
+    padding: 50px;
+    color: white ;
+    font-variant: small-caps;
+    font-size: 100px;
+    font-family: fantasy;
+    letter-spacing: 20;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.menu{
+   background: #184d47; 
+   text-align: center;
+}
+.menu-ul{
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+.menu-ul li{
+    font-size: 17px;
+    list-style: none;
+    display: inline-block;
+    padding: 25px;
+
+}
+.a-menu{ 
+    text-decoration:none ;
+    color: white;
+}
+.menu-ul li:hover{
+    background:lightgreen;
+    transform: scale(1.03);
+    color: black;
+}
+.search-box{
+    display: inline-block;
+}
+#search-input{
+    border: 1px solid rgb(255, 252, 252);
+    border-radius: 50px;
+    background:rgb(181, 173, 173);
+    width: max-content;
+    display: inline-block;
+    margin: 8px;
+    padding: 4px;
+
+}
+.search{
+    border: none;
+}
+.search-box:hover{
+    box-shadow: 0 0 10px 2px #5b8c5a ;
+    border: 1px solid #5b8c5a ;
+}
+.search-inpute{
+    width: 250px;
+    border:none;
+    font-size: 16px;
+    outline:none;
+    background: transparent;
+    margin: 15PX 0 0 10px ;
+}
+.search-box i{
+    font-size: 20px;
+    margin:0 10px 0 0;
+}
+button{
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.container, .deals-container{
+    max-resolution: 50px 50px 50px 5%;
+   
+    text-align: center;
+
+}
+.catagories, .items{
+    width: max-content;
+    margin: 25px;
+    border: 1px solid #7fc7be;
+    border-radius: 0 0 50px 50px;
+    display: inline-block;
+
+}
+.catagories:hover, .items:hover{
+    box-shadow: 0 0 10px 4px;
+
+}
+.item-image{
+    height: 200px;
+    width: 200px;
+    border-radius: 0 0 50px 50px;
+    padding: 10px;
+
+}
+.image-title{
+    text-align: center;
+    padding: 10px;
+    font-weight: bold ;
+}
+a{
+    text-decoration: none;
+}
+.title{
+    padding: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 10px;
+    color: white;
+    background: rgba(42, 41, 41, 0.5);
+}
+
+.deal{
+    padding: 50px;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    max-width: 20%;
+    background: linear-gradient(120deg, #06584f 20%,#628e88 50%,#06584f 80% );
+}
+.coupon-btn{
+    border: 1px solid white;
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+.coupon-btn:hover{
+    box-shadow:0 0 10px 5px white inset;
+    color: black;
+}
+.images{
+    display: inline-block;
+}
+.item-image-size{
+    height: 200px;
+    width: 200px;
+    border-radius: 0  ;
+    padding: 10px;
+
+}
+.discription{
+   margin: 14px;
+   min-height: 50px;
+
+}
+.item-select{
+    margin: 10px 0 0 0 ;
+}
+.buynow-btn{
+    border: 1px solid green;
+    background:rgb(7, 128, 7);
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    margin: 10px 0 2px  0;
+    color: white;
+}
+.buynow-btn:hover{
+    border: 1px solid rgb(18, 224, 73);
+    box-shadow: 10px 20px 10px 10px  rgb(28, 194, 94) inset ;
+
+}
+.parallaxl{
+    background-image:url(media/bg-fruts/bottom-bg.jpg);
+}
+.footer{
+    background:rgba(0,0, 0, 0.8);
+    text-align: center;
+    padding: 20px;
+    
+}
+.quick-links{
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    font-weight: bold;
+    min-width: 30%;
+
+}
+.quick-links ul{
+    padding: 0;
+}
+.quick-links li{
+    list-style: none;
+    padding: 10px;
+    font-weight: 300%;
+}
+.a-links{
+    text-decoration: none;
+    color: rgba(15, 227, 227, 0.678);
+}
+.a-links:hover{
+    color: rgb(229, 231, 233);
+
+}
+.foots p {
+   text-align: center;
+   font-size: 12px;
+   
+}

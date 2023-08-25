@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fresh food</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./media/bg-fruts/bg.jpg " type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+        function stickyMenu(){
+            var sticky=document .getElementBYId('sticky');
+            if(window.pageYOffset > 220){
+                sticky.classList.add('sticky');
+            }
+            else{
+                sticky.classList.remove('sticky')
+            }
+        }
+        window.onscroll = function(){
+            stickyMenu();
+        }
+    </script>
+</head>
+<body>
+    <div class="parallax">
+        <div class="page-title">EAT FRESH</div>
+    </div>
+
+    <div class="menu" id="sticky">
+        <ul class="menu-ul">
+            <a href="#" class="a-menu"><li>Home</li></a>
+            <a href="#deals" class="a-menu"><li>Deals</li></a>
+            <a href="#vegetables" class="a-menu"><li>Vegetables</li></a>
+            <a href="#frouts" class="a-menu"><li>Frouts</li></a>
+            <a href="#meats" class="a-menu"><li>Meats</li></a>
+            <a href="#" class="a-menu"><li>Cast</li></a>
+        </ul>
+
+        <div class="search-box">
+            <form action="">
+                <input id="search-input" type="text" placeholder="search.." name="search" class="search">
+                <!-- <button type="submit"> <i class="fa fa-search"></i></button> -->
+
+            </form>
+        </div>
+    </div>
+
+    <!-- Home Page Begins -->
+    <div class="container">
+        <a href="#vegetables">
+            <div class="catagories">
+                <img src="media/vege/broccoli.jpg" class="item-image" alt="">
+                <div class="image-title">Vegetables</div>
+            </div>
+        </a>
+        <a href="#fruits">
+            <div class="catagories">
+                <img src="media/frouts/tomatoes.jpg" class="item-image" alt="">
+                <div class="image-title">Fruits</div>
+            </div>
+        </a>
+        <a href="#meat">
+            <div class="catagories">
+                <img src="media/meat/chicken.jpg" class="item-image" alt="">
+                <div class="image-title">Meat</div>
+            </div>
+        </a><a href="#deals">
+            <div class="catagories">
+                <img src="media/deals.jpg" class="item-image" alt="">
+                <div class="image-title">Deals</div>
+            </div>
+        </a>
+    </div>    
+        <!-- Home Page End -->
+        <!-- Deal Begins here -->
+        <div class="deals-container" id="deals">
+            <div class="parallax">
+                <div class="title">DEALS</div>
+            </div> 
+
+            <div class="deal">
+                Saving 20% onmin-purches of $149 on vegetable <br>
+                <button class="coupon-btn">add coupon</button>
+            </div>
+            <div class="deal">
+                Saving 15% onmin-purches of $129 on fruit & drink <br>
+                <button class="coupon-btn">add coupon</button>
+            </div>
+            <div class="deal">
+                Saving 25% onmin-purches of $199 on meat & egg. <br>
+                <button class="coupon-btn">add coupon</button>
+            </div>
+        </div>
+     <!-- Deal END here -->
+
+     <!-- Vegetable Beging Here -->
+    <div class="deals-container" id="vegetables">
+        <div class="parallax">
+           <div class="title"> VEGETABLES</div>
+        </div>
+
+        <div class="items">
+            <div class="images">
+                <img src="media/vege/broccoli.jpg" class="item-image-size" alt="">
+            </div>
+            <div class="discription">
+                <b>broccoli</b><br>
+                Price: $2.99/250 gm
+            </div>
+
+            <label for="">Qty:</label>
+
+            <select name="" class="item-select">
+                <option value="">250gm</option>
+                <option value="">500gm</option>
+                <option value="">750gm</option>
+                <option value="">1000gm</option>
+            </select><br>
+            <button class="buynow-btn">Buy now</button>
+
+        </div> 
+
+        <div class="items">
+            <div class="images">
+                <img src="media/vege/carrot.jpg" class="item-image-size" alt="">
+            </div>
+            <div class="discription">
+                <b>Carrot</b><br>
+                Price: $1.99/250 gm
+            </div>
+
+            <label for="">Qty:</label>
+
+            <select name="" class="item-select">
+                <option value="">250gm</option>
+                <option value="">500gm</option>
+                <option value="">750gm</option>
+                <option value="">1000gm</option>
+            </select><br>
+            <button class="buynow-btn">Buy now</button>
+            
+        </div> 
+
+        <div class="items">
+            <div class="images">
+                <img src="media/vege/potato.jpg" class="item-image-size" alt="">
+            </div>
+            <div class="discription">
+                <b>Potato</b><br>
+                Price: $2.50/250 gm
+            </div>
+
+            <label for="">Qty:</label>
+
+            <select name="" class="item-select">
+                <option value="">250gm</option>
+                <option value="">500gm</option>
+                <option value="">750gm</option>
+                <option value="">1000gm</option>
+            </select><br>
+            <button class="buynow-btn">Buy now</button>
+            
+        </div> 
+        <div class="items">
+            <div class="images">
+                <img src="media/vege/green-vegetable.jpg" class="item-image-size" alt="">
+            </div>
+            <div class="discription">
+                <b>Green-vegetable</b><br>
+                Price: $0.99/250 gm
+            </div>
+
+            <label for="">Qty:</label>
+
+            <select name="" class="item-select">
+                <option value="">250gm</option>
+                <option value="">500gm</option>
+                <option value="">750gm</option>
+                <option value="">1000gm</option>
+            </select><br>
+            <button class="buynow-btn">Buy now</button>
+            
+        </div> 
+    </div>
+
+        <!-- vegetable end here -->
+        <!-- Frouts Beging Here  -->
+   
+        <div class="deals-container" id="frouts">
+            <div class="parallax">
+               <div class="title"> Frouts</div>
+            </div>
+    
+            <div class="items">
+                <div class="images">
+                    <img src="media/frouts/strawberry.jpg" class="item-image-size" alt="">
+                </div>
+                <div class="discription">
+                    <b>Strawberry</b><br>
+                    Price: $5.99/250 gm
+                </div>
+    
+                <label for="">Qty:</label>
+    
+                <select name="" class="item-select">
+                    <option value="">250gm</option>
+                    <option value="">500gm</option>
+                    <option value="">750gm</option>
+                    <option value="">1000gm</option>
+                </select><br>
+                <button class="buynow-btn">Buy now</button>
+    
+            </div> 
+    
+            <div class="items">
+                <div class="images">
+                    <img src="media/frouts/tomatoes.jpg" class="item-image-size" alt="">
+                </div>
+                <div class="discription">
+                    <b>Tomato</b><br>
+                    Price: $1.99/250 gm
+                </div>
+    
+                <label for="">Qty:</label>
+    
+                <select name="" class="item-select">
+                    <option value="">250gm</option>
+                    <option value="">500gm</option>
+                    <option value="">750gm</option>
+                    <option value="">1000gm</option>
+                </select><br>
+                <button class="buynow-btn">Buy now</button>
+                
+            </div> 
+    
+            <div class="items">
+                <div class="images">
+                    <img src="media/frouts/apple.jpg" class="item-image-size" alt="">
+                </div>
+                <div class="discription">
+                    <b>Apple</b><br>
+                    Price: $3.50/250 gm
+                </div>
+    
+                <label for="">Qty:</label>
+    
+                <select name="" class="item-select">
+                    <option value="">250gm</option>
+                    <option value="">500gm</option>
+                    <option value="">750gm</option>
+                    <option value="">1000gm</option>
+                </select><br>
+                <button class="buynow-btn">Buy now</button>  
+            </div> 
+
+            <div class="items">
+                <div class="images">
+                    <img src="media/frouts/banana.jpg" class="item-image-size" alt="">
+                </div>
+                <div class="discription">
+                    <b>Banana</b><br>
+                    Price: $1.99/250 gm
+                </div>
+    
+                <label for="">Qty:</label>
+    
+                <select name="" class="item-select">
+                    <option value="">250gm</option>
+                    <option value="">500gm</option>
+                    <option value="">750gm</option>
+                    <option value="">1000gm</option>
+                </select><br>
+                <button class="buynow-btn">Buy now</button>            
+            </div>
+
+            <div class="items">
+                <div class="images">
+                    <img src="media/frouts/papaya.jpg" class="item-image-size" alt="">
+                </div>
+                <div class="discription">
+                    <b>Papaya</b><br>
+                    Price: $5.99/250 gm
+                </div>
+    
+                <label for="">Qty:</label>
+    
+                <select name="" class="item-select">
+                    <option value="">250gm</option>
+                    <option value="">500gm</option>
+                    <option value="">750gm</option>
+                    <option value="">1000gm</option>
+                </select><br>
+                <button class="buynow-btn">Buy now</button>
+            </div>
+
+            <div class="items">
+                <div class="images">
+                    <img src="media/frouts/mango.jpg" class="item-image-size" alt="">
+                </div>
+                <div class="discription">
+                    <b>Mango</b><br>
+                    Price: $5.99/250 gm
+                </div>
+    
+                <label for="">Qty:</label>
+    
+                <select name="" class="item-select">
+                    <option value="">250gm</option>
+                    <option value="">500gm</option>
+                    <option value="">750gm</option>
+                    <option value="">1000gm</option>
+                </select><br>
+                <button class="buynow-btn">Buy now</button>
+            </div>
+            
+        </div>
+          <!-- Frouts end here -->
+          <!-- meat beging here -->
+    <div class="deals-container " id="meats">
+        <div class="parallax">
+            <div class="title">MEATS</div>
+        </div>
+
+        <div class="items">
+            <div class="images">
+                <img src="media/meat/goat-meat.jpg" class="item-image-size" alt="">
+            </div>
+            <div class="discription">
+                <b>Goat-meat</b><br>
+                Price: $5.99/250 gm
+            </div>
+
+            <label for="">Qty:</label>
+
+            <select name="" class="item-select">
+                <option value="">250gm</option>
+                <option value="">500gm</option>
+                <option value="">750gm</option>
+                <option value="">1000gm</option>
+            </select><br>
+            <button class="buynow-btn">Buy now</button>
+        </div>
+        <div class="items">
+            <div class="images">
+                <img src="media/meat/mutton.jpg" class="item-image-size" alt="">
+            </div>
+            <div class="discription">
+                <b>Mutton</b><br>
+                Price: $5.99/250 gm
+            </div>
+
+            <label for="">Qty:</label>
+
+            <select name="" class="item-select">
+                <option value="">250gm</option>
+                <option value="">500gm</option>
+                <option value="">750gm</option>
+                <option value="">1000gm</option>
+            </select><br>
+            <button class="buynow-btn">Buy now</button>
+        </div>
+        <div class="items">
+            <div class="images">
+                <img src="media/meat/chicken.jpg" class="item-image-size" alt="">
+            </div>
+            <div class="discription">
+                <b>Chicken</b><br>
+                Price: $5.99/250 gm
+            </div>
+
+            <label for="">Qty:</label>
+
+            <select name="" class="item-select">
+                <option value="">250gm</option>
+                <option value="">500gm</option>
+                <option value="">750gm</option>
+                <option value="">1000gm</option>
+            </select><br>
+            <button class="buynow-btn">Buy now</button>
+        </div>
+
+        <div class="items">
+            <div class="images">
+                <img src="media/meat/prawns.jpg" class="item-image-size" alt="">
+            </div>
+            <div class="discription">
+                <b>Prawns</b><br>
+                Price: $5.99/250 gm
+            </div>
+
+            <label for="">Qty:</label>
+
+            <select name="" class="item-select">
+                <option value="">250gm</option>
+                <option value="">500gm</option>
+                <option value="">750gm</option>
+                <option value="">1000gm</option>
+            </select><br>
+            <button class="buynow-btn">Buy now</button>
+        </div>
+
+    </div>
+       <!-- meat end here     -->
+       <!-- footer start now -->
+       <div class="parallaxl">
+        <div class="footer">
+            <div class="quick-links">
+                <div>Location</div>
+                <ul>
+                    <li><a href="" class="a-links"> Address1 </a></li>
+                    <li><a href="" class="a-links"> Address2 </a></li>
+                    <li><a href="" class="a-links"> Address3 </a></li>
+                </ul>
+            </div>
+            <div class="quick-links">
+                <div>Careers</div>
+                <ul>
+                    <li><a href="" class="a-links"> Packing staff </a></li>
+                    <li><a href="" class="a-links">Delivar Agent </a></li>
+                    <li><a href="" class="a-links"> Shelf fillers </a></li>
+                </ul>
+            </div>
+            <div class="quick-links">
+                <div>Quick Linke</div>
+                <ul>
+                    <li><a href="" class="a-links"> Contact us </a></li>
+                    <li><a href="" class="a-links"> FAQ </a></li>
+                    <li><a href="" class="a-links"> Help </a></li>
+                </ul>
+            </div>
+            
+            
+        </div>
+       </div>
+
+       <div class="foots">
+        <p> &copy; 2023 By programing by Joy web-devloper.</p>
+       </div>  
+    
+</body>   
+</html>
